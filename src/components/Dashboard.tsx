@@ -1,7 +1,21 @@
+import NavBar from "./NavBar";
+import RemainingGoods from "./RemainingGoods";
+import ProfitPerDay from "./ProfitPerDay";
+import ProfitForTheWeek from "./ProfitForTheWeek";
+
 const Dashboard = () => {
   return(
     <>
-      <h1>Общий остаток товаров на складе</h1> 
+      <div>
+        <h1>Добро пожаловать!</h1>
+        <h3>Ваш обзор на сегодня</h3>
+
+        <RemainingGoods/>
+        <ProfitPerDay/>
+        <ProfitForTheWeek/>
+
+        <NavBar/>
+      </div>
     </>
   )
 };

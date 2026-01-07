@@ -2,9 +2,14 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <nav>
-      <Link to="/">Home</Link>
-    </nav>
+    <>
+      <nav>
+        <Link to="/">🏠 Главная</Link>
+        <Link to="/Sales">📦 Товары</Link>
+        <Link to="/Goods">🛒 Продажи</Link>
+        <Link to="/Analytics">📊 Аналитика</Link>
+      </nav>
+    </>
   );
 };
 
