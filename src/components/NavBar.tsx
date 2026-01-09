@@ -5,8 +5,8 @@ const NavBar = () => {
     <>
       <nav>
         <Link to="/">🏠 Главная</Link>
-        <Link to="/Sales">📦 Товары</Link>
-        <Link to="/Goods">🛒 Продажи</Link>
+        <Link to="/Goods">📦 Товары</Link>
+        <Link to="/Sales">🛒 Продажи</Link>
         <Link to="/Analytics">📊 Аналитика</Link>
       </nav>
     </>
