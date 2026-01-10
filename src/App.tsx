@@ -4,10 +4,12 @@ import Dashboard from "./components/Dashboard";
 import Sales from "./components/Sales";
 import Goods from "./components/Goods";
 import Analytics from "./components/Analytics";
+import { TotalProvider } from "./components/TotalProvider";
 
 function App() {
   return (
     <>
+    <TotalProvider>
       <Head/>
 
       <Routes>
@@ -16,6 +18,7 @@ function App() {
         <Route path="/Goods" element={<Goods />} />
         <Route path="/Analytics" element={<Analytics />} />
       </Routes>
+    </TotalProvider>
     </>
   );
 }
